@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuckworthLewis", "DuckworthLewis\DuckworthLewis.csproj", "{877D2F09-5DBA-4664-B913-29AD5E1C5DC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{E273670B-3CB2-457D-8C76-45C3D0DBEF26}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{4248DEB1-D7EC-46F8-AA72-8E9D50EA2717}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\DuckworthLewis-WAWS-dev.json = PublishScripts\Configurations\DuckworthLewis-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{3E3899A2-0ABC-4F69-AFCB-3E4FA5AFC348}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{877D2F09-5DBA-4664-B913-29AD5E1C5DC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{877D2F09-5DBA-4664-B913-29AD5E1C5DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{877D2F09-5DBA-4664-B913-29AD5E1C5DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{877D2F09-5DBA-4664-B913-29AD5E1C5DC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4248DEB1-D7EC-46F8-AA72-8E9D50EA2717} = {E273670B-3CB2-457D-8C76-45C3D0DBEF26}
+	EndGlobalSection
+EndGlobal
